@@ -11,8 +11,8 @@ Experience(Independant variable)
 * A regression line is plotted randomly such that it fits most of the points in the training set
 * The best fit is decided on the basis of Euclidean's distance, which states that the distance between two points (x1,y1) and (x2,y2) in a 2D plane is 
 `distance = [(x2-x1)^2 + (y2-y1)^2] ^1/2`
-*The sum of all the distances is calculated (between the orignal point and the random regression line) and stored. The regression line with the minimum value is chosen as the best fit
-*Then we plot the graph for Training set and Test set to visualize our output
+* The sum of all the distances is calculated (between the orignal point and the random regression line) and stored. The regression line with the minimum value is chosen as the best fit
+* Then we plot the graph for Training set and Test set to visualize our output
 
 ## Outputs
 ### Salary vs Experience(Training set)
