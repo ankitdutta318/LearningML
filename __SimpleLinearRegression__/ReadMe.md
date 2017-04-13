@@ -1,12 +1,12 @@
 # Simple Linear Regression Model
 One of the simplest Machine Learning model is the Linear Regression model.
 In this model a linear dependance of one feature(Dependant variable) on other features(Independant variables) is found, a suitable and best fit regression line is chosen and the model is then tested for Test data.
-![](img/linear_regression1.png)
+![](img/linear_regression1.PNG)
 
 In this model the data set consists of two columns(varibles), namely:
 * Salary(Dependant variable)
 * Experience(Independant variable)
-![](img/linear_regression2.png)
+![](img/linear_regression2.PNG)
 
 ## Procedure:
 * First the data is  divided into two set - Training set(2/3 of the total observations) and Test set(1/3 of total observation)
