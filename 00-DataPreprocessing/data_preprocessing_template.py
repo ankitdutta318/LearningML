@@ -15,11 +15,11 @@ import pandas as pd
 # Importing dataset
 dataset = pd.read_csv(r'C:\Users\anonymous\Desktop\MachineLearning\__DataPreprocessing__\Data.csv')
 X = dataset.iloc[:, :-1].values
-Y = dataset.iloc[:, 3].values
+y = dataset.iloc[:, 3].values
 
 # Splitting the dataset into Tranning set and Test set
 from sklearn.cross_validation import train_test_split
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.2, random_state = 0)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
 # Feature Scaling
 """
